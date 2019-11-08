@@ -1,0 +1,19 @@
+version: '3.2'
+
+services:
+  iris:
+    build: .
+    restart: always
+
+    container_name: iris-hl7qs-110419
+
+    ports:
+    # 51773 is the new superserver default port (vs old 1972)
+    - "51778:51773"
+    # 52773 is the new webserver/management portal port (vs 57772)
+    - "52778:52773"
+
+    hostname: server123
+
+    volumes:
+      - ./:/iris/app

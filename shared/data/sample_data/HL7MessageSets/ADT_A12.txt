@@ -1,0 +1,5 @@
+MSH|^~\&|PAS|ABC|LSP|ABC|20071031152829||ADT^A12|12363934|P|2.3.1|||AL|NE|GBR
+EVN|A12|20081031152829
+PID|1||ABC00018258^^^ABC^MR^ABC||Vanze^Carlie^^^MS||19740805|F|Vanze^Carlie^^^MS|A|7764 Elm Blvd^^Boston^MA^02114||||NSP^Not Specified|M|RC|||YES||A||NSP||8|employment lawyer|US^United States||N
+PD1|||Health Centre, Darwin Road, Cambridge, MA^GPPRC^P000000|G9999999^Ledge^Sn^^^DR
+PV1|1|I|ABC01M5^^^^^^^^M5 Ward|AN||ABC01CDS^^^^^^^^Central Delivery Suite||G9999999^Ledge^Sn^^^DR|C9999999^Hoyt^R (Obs)^^^MR^OBS|||||HO|||C9999999^Hoyt^R (Obs)^^^MR|NHS|123456^^^VISIT^VISIT|||||||||||||||||NO|NSP|||NORMC||||20071031033600

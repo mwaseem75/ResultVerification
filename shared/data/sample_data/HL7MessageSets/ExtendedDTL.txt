@@ -1,0 +1,22 @@
+MSH|^~\&|MEI MUSE|A|CAR||20060726155037||ORU^R01|20060726155037|P|2.2
+PID|1||008034878^^^^^ABC|008034878|California^Glenview||19480414|M||W||||||||
+PV1|1|I|H2NW||||001926^PRETE^CAROLE PAU|001926^PRETE^CAROLE PAU|||||||||||4159
+OBR|1|E33068||93226X01^ECG|||20060726162108|16%2021%208%20255||||||||001649^ZUNAMON^ALAN||||||20060726155037|||F||001^ONCE^X01^20060728000000|||||001649^ZUNAMON, MD^ALAN|^^|352^BRANDT^MARGIE|206^KRONICK^NAN
+OBX|1|TX|93000.2^Ventricular Rate||79|BPM|||||F
+OBX|2|ST|93000.3^Atrial Rate||79|BPM|||||F
+OBX|3|ST|93000.4^P-R Interval||232|ms|||||F
+OBX|4|ST|93000.5^QRS Duration||128|ms|||||F
+OBX|5|ST|93000.6^QT||444|ms|||||F
+OBX|6|ST|93000.???^QTc||509|ms|||||F
+OBX|7|ST|93000.12^P Axis||55|degrees|||||F
+OBX|8|ST|93000.13^R Axis||55|degrees|||||F
+OBX|9|ST|93000.14^T Axis||55|degrees|||||F
+OBX|10|TX|||DIAGNOSIS:||||||F
+OBX|11|TX|||Sinus rhythm with 1st degree A-V block||||||F
+OBX|12|TX|||Biatrial enlargement||||||F
+OBX|13|TX|||Left ventricular hypertrophy with QRS widening||||||F
+OBX|14|TX|||Abnormal ECG||||||F
+OBX|15|TX|||No previous ECGs available||||||F
+OBX|16|TX|||Interpreted and confirmed by:  alan zunamon (126)||||||F
+OBX|17|TX|Overread By:||ALAN ZUNAMON, MD||||||F
+
