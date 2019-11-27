@@ -1,4 +1,4 @@
-Class HL7QS.ADTtoADTupdateMSH Extends Ens.DataTransformDTL [ DependsOn = EnsLib.HL7.Message ]
+Class HL7QS.RegADTtoUpdateADTDTL Extends Ens.DataTransformDTL [ DependsOn = EnsLib.HL7.Message ]
 {
 
 Parameter IGNOREMISSINGSOURCE = 1;
