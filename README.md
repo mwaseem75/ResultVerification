@@ -17,6 +17,6 @@ open bugs:
 	-UpdateADTtoBillingADTDTL not fully impelemented (MSH, PID, schema)  
 	-UpdateADTtoLabORMDTL not fully implemented (missing segs?, MSH, PID, schema)  
 	-lab outgoing file name  
-	-patient reg ID not getting through to db
+	-patient reg ID not getting through to db  
 	-remove password expire from final container  
 	-update adt_a01  
