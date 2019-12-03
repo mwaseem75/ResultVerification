@@ -9,13 +9,17 @@ Parameter INVOCATION = "Queue";
 
 Method UpdatePatientRegDB(pInput As HL7QS.PatientRegDBRequest, Output pOutput As Ens.Response) As %Status
 {
-	Quit $$$ERROR($$$NotImplemented)
+	Set newEntry =  ##class(HL7QS.PatientReg).%New()
+	Set newEntry.PatientID = pInput.PatientID
+	Set newEntry.RegDateTime = pInput.RegDateTime
+	Set sc = newEntry.%Save()	
+	Quit sc
 }
 
 XData MessageMap
 {
 <MapItems>
-    <MapItem MessageType="EnsLib.HL7.Message">
+    <MapItem MessageType="HL7QS.PatientRegDBRequest">
         <Method>UpdatePatientRegDB</Method>
     </MapItem>
 </MapItems>

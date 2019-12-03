@@ -20,11 +20,11 @@ XData ProductionDefinition
   </Item>
   <Item Name="toBillingFile" Category="ClinicReg" ClassName="EnsLib.HL7.Operation.FileOperation" PoolSize="1" Enabled="true" Foreground="false" Comment="This is a default HL7 File Operation." LogTraceEvents="false" Schedule="">
     <Setting Target="Adapter" Name="FilePath">/iris/app/shared/data/billing/</Setting>
-    <Setting Target="Host" Name="Filename">%f_"_billing".txt</Setting>
+    <Setting Target="Host" Name="Filename">billing_%f</Setting>
   </Item>
   <Item Name="toLabFile" Category="ClinicReg" ClassName="EnsLib.HL7.Operation.FileOperation" PoolSize="1" Enabled="true" Foreground="false" Comment="This is a default HL7 File Operation." LogTraceEvents="false" Schedule="">
     <Setting Target="Adapter" Name="FilePath">/iris/app/shared/data/lab/</Setting>
-    <Setting Target="Host" Name="Filename">%f_"_lab".txt</Setting>
+    <Setting Target="Host" Name="Filename">lab_%f</Setting>
   </Item>
   <Item Name="HL7QS.PatientRegDBOperation" Category="ClinicReg" ClassName="HL7QS.PatientRegDBOperation" PoolSize="1" Enabled="true" Foreground="false" Comment="" LogTraceEvents="false" Schedule="">
   </Item>

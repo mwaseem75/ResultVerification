@@ -1,8 +1,10 @@
 Class HL7QS.PatientRegDBRequest Extends Ens.Request
 {
-	Property PatientID As %Numeric;
-	
-	Property RegDateTime As %DateTime;
+
+Property PatientID As %Numeric;
+
+Property RegDateTime As %DateTime;
+
 Storage Default
 {
 <Data name="PatientRegDBRequestDefaultData">
