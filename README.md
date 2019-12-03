@@ -12,11 +12,7 @@ To Run on Windows:
 	cp shared\data\sample_data\ADT_A01.txt shared\data\registration\  
 	start "http://localhost:52785/csp/sys/UtilHome.csp"  
 
-open bugs:  
-	-RegADTtoUpdateADTDTL not fully implemented (MSH (date), PID)  
-	-UpdateADTtoBillingADTDTL not fully impelemented (MSH, PID, schema)  
-	-UpdateADTtoLabORMDTL not fully implemented (missing segs?, MSH, PID, schema)  
+open bugs:   
+	-UpdateADTtoLabORUDTL: unsolicited transmission (7 segments)  
 	-lab outgoing file name  
-	-patient reg ID not getting through to db  
 	-remove password expire from final container  
-	-update adt_a01  
