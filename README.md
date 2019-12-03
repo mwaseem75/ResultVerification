@@ -20,4 +20,3 @@ open bugs:
 	-patient reg ID not getting through to db
 	-remove password expire from final container  
 	-update adt_a01  
-	-add comments
