@@ -1,3 +1,4 @@
+/// PatientRegDBOperation for HL7QS Production. Saves info from PatientRegDBRequest to database via ObjectScript objects. Also contains SQL adapter.
 Class HL7QS.PatientRegDBOperation Extends Ens.BusinessOperation
 {
 
