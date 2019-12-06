@@ -14,7 +14,7 @@ XData RuleDefinition [ XMLNamespace = "http://www.intersystems.com/rule" ]
 <constraint name="docName" value="ADT_A01"></constraint>
 <when condition="1">
 <send transform="HL7QS.UpdateADTtoBillingADTDTL" target="toBillingFile"></send>
-<send transform="HL7QS.UpdateADTtoLabORUDTL" target="toLabFile"></send>
+<send transform="HL7QS.UpdateADTtoLabORMDTL" target="toLabFile"></send>
 <send transform="HL7QS.UpdateADTtoPatientRegDBRequestDTL" target="HL7QS.PatientRegDBOperation"></send>
 <return></return>
 </when>

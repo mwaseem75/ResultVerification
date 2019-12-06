@@ -10,11 +10,11 @@ Parameter INVOCATION = "Queue";
 
 Method UpdatePatientRegDB(pInput As HL7QS.PatientRegDBRequest, Output pOutput As Ens.Response) As %Status
 {
-	Set newEntry =  ##class(HL7QS.PatientReg).%New()
-	Set newEntry.PatientID = pInput.PatientID
-	Set newEntry.RegDateTime = pInput.RegDateTime
-	Set sc = newEntry.%Save()	
-	Quit sc
+	set newEntry =  ##class(HL7QS.PatientReg).%New()
+	set newEntry.PatientID = pInput.PatientID
+	set newEntry.RegDateTime = pInput.RegDateTime
+	set sc = newEntry.%Save()	
+	quit sc
 }
 
 XData MessageMap
