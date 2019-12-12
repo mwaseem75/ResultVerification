@@ -20,3 +20,4 @@ To Run on Windows:
 ```
 open bugs:   
 	-remove password expire from final container  
+	-create role/user that's not SuperUser  
