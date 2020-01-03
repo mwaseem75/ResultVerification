@@ -1,4 +1,4 @@
-FROM docker.iscinternal.com/intersystems/irishealth-community:2019.3.0-released
+FROM store/intersystems/irishealth-community:2019.4.0.383.0
 
 USER root
 
