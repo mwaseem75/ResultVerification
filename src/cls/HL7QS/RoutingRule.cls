@@ -1,4 +1,9 @@
-/// Given an incoming admission ADT message, adds MSH data and forwards the message to next nodes.
+/// HL7QS Routing Rule
+
+/// Business process for HL7QS Production
+
+/// Given an incoming ADT message, this rule calls three transformations and forwards the message to next nodes.
+
 Class HL7QS.RoutingRule Extends Ens.Rule.Definition
 {
 

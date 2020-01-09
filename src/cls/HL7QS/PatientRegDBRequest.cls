@@ -1,4 +1,9 @@
-/// PatientRegDBRequest to be sent to custom business operation.
+/// Patient Registration Database Request
+
+/// PatientRegDBRequest message for HL7QS Production
+
+/// A request message for sending patient registration data to a business operation where it will be saved.
+
 Class HL7QS.PatientRegDBRequest Extends Ens.Request
 {
 

@@ -1,4 +1,11 @@
-/// PatientRegDBOperation for HL7QS Production. Saves info from PatientRegDBRequest to database via ObjectScript objects. Also contains SQL adapter.
+/// Patient Registration Database Operation.
+
+/// PatientRegDBOperation. Custom business operation for HL7QS Production.
+
+/// Persists data from PatientRegDBRequest (Patient Registration Database Request) message to the database via an object.
+
+/// Also includes SQL adapter, so the class could be modified to use SQL queries rather than objects.
+
 Class HL7QS.PatientRegDBOperation Extends Ens.BusinessOperation
 {
 
