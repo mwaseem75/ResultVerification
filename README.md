@@ -18,7 +18,7 @@ To Run on Windows:
 	cp shared\data\sample_data\ADT_A01.txt shared\data\registration\  
 	start "http://localhost:52785/csp/sys/UtilHome.csp"  
 ```
-To Run on Windows:  
+To Run on Mac:  
 ```
 	git clone https://github.com/intersystems/quickstarts-hl7  
 	cd quickstarts-hl7  
