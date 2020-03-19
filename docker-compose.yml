@@ -5,7 +5,7 @@ services:
     build: .
     restart: always
 
-    container_name: iris-hl7qs-120619
+    container_name: iris-hl7qs
 
     ports:
     # 51773 is the new superserver default port (vs old 1972)
