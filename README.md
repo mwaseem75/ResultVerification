@@ -25,5 +25,5 @@ To Run on Mac:
 	cd quickstarts-hl7  
 	docker-compose up -d  
 	cp shared/data/sample_data/ADT_A01.txt shared/data/registration/  
-	[open in browser] http://localhost:52785/csp/sys/UtilHome.csp  
+	open "http://localhost:52785/csp/sys/UtilHome.csp"  
 ```
