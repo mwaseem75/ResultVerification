@@ -1,0 +1,11 @@
+{ 
+    "objectscript.conn": 
+    {       
+        "active": true,
+        "host": "localhost",
+        "port": 52785,
+        "username": "SuperUser",
+        "password": "SYS",
+        "ns": "INTEROP"
+    }
+}
