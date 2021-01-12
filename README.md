@@ -14,7 +14,7 @@ Contact InterSystems Learning Services Support with questions or feedback: onlin
 * /.vscode/settings.json for automatic server connections when opened in VS Code. 
 
 ## Requirements:  
-* Docker command line  
+* [Docker desktop]( https://www.docker.com/products/docker-desktop)
 * Get the latest InterSystems IRIS for Health image for use in the Dockerfile: https://hub.docker.com/_/intersystems-iris-for-health  
 
 ## To Run on Windows:  
