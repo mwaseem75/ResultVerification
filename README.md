@@ -27,7 +27,8 @@ Contact InterSystems Learning Services Support with questions or feedback: onlin
 ```
 Log in with credentials: SuperUser | SYS
 
-## To Run on Mac:  
+## To Run on macOS:  
+
 ```
 	git clone https://github.com/intersystems/quickstarts-hl7  
 	cd quickstarts-hl7  
