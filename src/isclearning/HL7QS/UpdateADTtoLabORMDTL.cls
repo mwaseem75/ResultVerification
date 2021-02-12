@@ -1,4 +1,4 @@
-Class HL7QS.UpdateADTtoLabORMDTL Extends Ens.DataTransformDTL [ DependsOn = EnsLib.HL7.Message ]
+Class isclearning.HL7QS.UpdateADTtoLabORMDTL Extends Ens.DataTransformDTL [ DependsOn = EnsLib.HL7.Message ]
 {
 
 Parameter IGNOREMISSINGSOURCE = 1;

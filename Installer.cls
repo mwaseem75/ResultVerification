@@ -17,7 +17,7 @@ XData MyInstall [ XMLNamespace = INSTALLER ]
     </Configuration>
 
     <Import File="${SOURCESPATH}" Recurse="1"/>
-    <Production Name="HL7QS.Production" AutoStart="1"/>
+    <Production Name="isclearning.HL7QS.Production" AutoStart="1"/>
   </Namespace>
 
 </Manifest>

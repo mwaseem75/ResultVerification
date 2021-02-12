@@ -4,7 +4,7 @@
 
 /// Stores PatientID and RegDateTime for incoming ADT messages.
 
-Class HL7QS.PatientReg Extends %Persistent
+Class isclearning.HL7QS.PatientReg Extends %Persistent
 {
 
 Property PatientID As %Numeric;
