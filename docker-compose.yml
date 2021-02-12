@@ -2,7 +2,9 @@ version: '3.2'
 
 services:
   iris:
-    build: .
+    build: 
+      context: .
+      dockerfile: Dockerfile
     restart: always
 
     container_name: iris-hl7qs

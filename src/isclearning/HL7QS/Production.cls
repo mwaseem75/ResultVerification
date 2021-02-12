@@ -1,9 +1,9 @@
-Class HL7QS.Production Extends Ens.Production
+Class isclearning.HL7QS.Production Extends Ens.Production
 {
 
 XData ProductionDefinition
 {
-<Production Name="HL7QS.Production" LogGeneralTraceEvents="false">
+<Production Name="isclearning.HL7QS.Production" LogGeneralTraceEvents="false">
   <Description></Description>
   <ActorPoolSize>2</ActorPoolSize>
   <Item Name="fromRegFile" Category="ClinicReg" ClassName="EnsLib.HL7.Service.FileService" PoolSize="1" Enabled="true" Foreground="false" Comment="This is a default HL7 File Service." LogTraceEvents="false" Schedule="">
@@ -15,7 +15,7 @@ XData ProductionDefinition
   </Item>
   <Item Name="fromRegADTUpdate" Category="ClinicReg" ClassName="EnsLib.HL7.MsgRouter.RoutingEngine" PoolSize="1" Enabled="true" Foreground="false" Comment="This handles message routing logic." LogTraceEvents="false" Schedule="">
     <Setting Target="Host" Name="Validation"></Setting>
-    <Setting Target="Host" Name="BusinessRuleName">HL7QS.UpdateRule</Setting>
+    <Setting Target="Host" Name="BusinessRuleName">isclearning.HL7QS.UpdateRule</Setting>
     <Setting Target="Host" Name="BadMessageHandler">BadMessageHandler</Setting>
   </Item>
   <Item Name="toBillingFile" Category="ClinicReg" ClassName="EnsLib.HL7.Operation.FileOperation" PoolSize="1" Enabled="true" Foreground="false" Comment="This is a default HL7 File Operation." LogTraceEvents="false" Schedule="">
@@ -26,11 +26,11 @@ XData ProductionDefinition
     <Setting Target="Adapter" Name="FilePath">/iris/app/shared/data/lab/</Setting>
     <Setting Target="Host" Name="Filename">lab.txt</Setting>
   </Item>
-  <Item Name="HL7QS.PatientRegDBOperation" Category="ClinicReg" ClassName="HL7QS.PatientRegDBOperation" PoolSize="1" Enabled="true" Foreground="false" Comment="" LogTraceEvents="false" Schedule="">
+  <Item Name="isclearning.HL7QS.PatientRegDBOperation" Category="ClinicReg" ClassName="isclearning.HL7QS.PatientRegDBOperation" PoolSize="1" Enabled="true" Foreground="false" Comment="" LogTraceEvents="false" Schedule="">
   </Item>
   <Item Name="fromUpdateADTRoute" Category="ClinicReg" ClassName="EnsLib.HL7.MsgRouter.RoutingEngine" PoolSize="1" Enabled="true" Foreground="false" Comment="This handles message routing logic." LogTraceEvents="false" Schedule="">
     <Setting Target="Host" Name="Validation"></Setting>
-    <Setting Target="Host" Name="BusinessRuleName">HL7QS.RoutingRule</Setting>
+    <Setting Target="Host" Name="BusinessRuleName">isclearning.HL7QS.RoutingRule</Setting>
     <Setting Target="Host" Name="BadMessageHandler">BadMessageHandler</Setting>
   </Item>
 </Production>
