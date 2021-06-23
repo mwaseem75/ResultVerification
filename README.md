@@ -23,7 +23,7 @@ Contact InterSystems Learning Services Support with questions or feedback: onlin
 	cd quickstarts-hl7  
 	docker-compose up -d  
 	cp shared\data\sample_data\ADT_A01.txt shared\data\registration\  
-	start "http://localhost:52785/csp/interop/EnsPortal.ProductionConfig.zen?PRODUCTION=HL7QS.Production&$NAMESPACE=INTEROP"  
+	start explorer "http://localhost:52785/csp/interop/EnsPortal.ProductionConfig.zen?PRODUCTION=isclearning.HL7QS.Production&$NAMESPACE=INTROP" 
 ```
 Log in with credentials: SuperUser | SYS
 
