@@ -1,9 +1,6 @@
 /// HL7QS Routing Rule
-
 /// Business process for HL7QS Production
-
 /// Given an incoming ADT message, this rule calls three transformations and forwards the message to next nodes.
-
 Class isclearning.HL7QS.RoutingRule Extends Ens.Rule.Definition
 {
 

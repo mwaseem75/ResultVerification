@@ -1,11 +1,7 @@
 /// Patient Registration Database Operation.
-
 /// PatientRegDBOperation. Custom business operation for HL7QS Production.
-
 /// Persists data from PatientRegDBRequest (Patient Registration Database Request) message to the database via an object.
-
 /// Also includes SQL adapter, so the class could be modified to use SQL queries rather than objects.
-
 Class isclearning.HL7QS.PatientRegDBOperation Extends Ens.BusinessOperation
 {
 

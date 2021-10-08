@@ -1,9 +1,6 @@
 /// HL7QS Update Rule
-
 /// Business Process for HL7 Quick Start
-
 /// Given an incoming ADT message, this rule calls a data transformation and forwards the message to the message router.
-
 Class isclearning.HL7QS.UpdateRule Extends Ens.Rule.Definition
 {
 
