@@ -7,14 +7,14 @@ services:
       dockerfile: Dockerfile
     restart: always
 
-    container_name: iris-hl7qs
+    container_name: iris-resultVer
 
     ports:
       - "1972"
       - "52795:52773"
       - "53773"
 
-    hostname: server-hl7qs
+    hostname: server-resultVer
 
     volumes:
       - ./:/iris/app
