@@ -10,8 +10,9 @@ services:
     container_name: iris-hl7qs
 
     ports:
-    - "51785:1972"
-    - "52785:52773"
+      - "1972"
+      - "52795:52773"
+      - "53773"
 
     hostname: server-hl7qs
 
