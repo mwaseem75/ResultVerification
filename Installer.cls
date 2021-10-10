@@ -17,7 +17,7 @@ XData MyInstall [ XMLNamespace = INSTALLER ]
     </Configuration>
 
     <Import File="${SOURCESPATH}" Recurse="1"/>
-    <Production Name="resultVer.Production" AutoStart="1"/>
+    <Production Name="myProd.Production" AutoStart="1"/>
   </Namespace>
 
 </Manifest>
