@@ -9,4 +9,5 @@ Do ##class(Security.System).Get(,.p)
 Set p("AutheEnabled")=$zboolean(p("AutheEnabled"),16,7)
 Do ##class(Security.System).Modify(,.p)
 
+zn "INTEROP"
 zpm "install csvgen"
