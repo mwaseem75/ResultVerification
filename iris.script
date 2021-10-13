@@ -8,3 +8,5 @@ Do ##class(Security.Users).AddRoles("admin", "%ALL")
 Do ##class(Security.System).Get(,.p)
 Set p("AutheEnabled")=$zboolean(p("AutheEnabled"),16,7)
 Do ##class(Security.System).Modify(,.p)
+
+zpm "install csvgen"
