@@ -26,6 +26,7 @@ WORKDIR /opt/app
 
 COPY ./Installer.cls ./
 COPY ./iris.script ./
+COPY ./TestRanges.csv ./TestRanges.csv
 COPY ./src ./src/
 COPY ./shared ./shared/
 

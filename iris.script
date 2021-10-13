@@ -11,3 +11,4 @@ Do ##class(Security.System).Modify(,.p)
 
 zn "INTEROP"
 zpm "install csvgen"
+do ##class(community.csvgen).Generate("/opt/app/TestRanges.csv",",","resultVer.TestRanges")  
