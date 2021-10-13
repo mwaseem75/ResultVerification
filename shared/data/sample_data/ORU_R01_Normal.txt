@@ -1,0 +1,27 @@
+MSH|^~\&|FDHL7|JOHNSON LABS||P1055|201007231634||ORU^R01|P1055–0000047907|P|2.5|1||NE|NE
+PID|1|JQ4988|108512373||SAMPLES^JUNIOR||01/10/1948^53 Y|M|||^******^^||||||||
+NTE|1|P|****************************************************************************
+OBR|1||108512373|CHEM^——-* CHEMISTRY *——–||201007221041||||||||201007222312||P1055^SCI DULUTH/PHS^RTE 29,PO BOX 244^DULUTH, MN 19426^|(945)443–1234|RECEPTION, NEW||||201007231634|||R||||
+OBX|1|NM|0135–4^TotalProtein||7.3|gm/dl|5.9–8.4||||F
+OBX|2|NM|0033–1^Albumin||3.9|gm/dl|3.2–5.2||||F
+OBX|3|NM|1753–3^Globulin||3.4|gm/dL|1.7–3.7||||F
+OBX|4|NM|0641–1^A/G Ratio||1.1||1.1–2.9||||F
+OBX|5|NM|1976–0^Glucose||296|mg/dL|70–99|HI|||F
+OBX|6|NM|0148–7^Sodium||134|mmol/L|133–145||||F
+OBX|7|NM|0129–7^Potassium||4.3|mmol/L|3.3–5.3||||F
+OBX|8|NM|0057–0^Chloride||96|mmol/L|96–108||||F
+OBX|9|NM|0052–1^CO2||24|mmol/L|21–29||||F
+OBX|10|NM|0049–7^BUN||17|mg/dl|7–25||||F
+OBX|11|NM|0070–3^Creatinine||1.1|mg/dl|0.6–1.3||||F
+OBX|12|NM|090013–4^e–GFR||70||>60 mL/min/1.73m2||||F
+OBX|13|NM|1427–4^BUN/CreatRatio||15.5||10–28||||F
+OBX|14|NM|0050–5^Calcium||8.9|mg/dl|8.4–10.4||||F
+OBX|15|NM|0157–8^UricAcid||6.2|mg/dl|2.4–7.0||||F
+OBX|16|NM|0114–9^Iron||87|mcg/dl|30–160||||F
+OBX|17|NM|0043–0^Bilirubin,Total||0.6|mg/dl|0.1–1.0||||F
+OBX|18|NM|0117–2^LDH||190|u/l|94–250||||F
+OBX|19|NM|0185–9^AlkPhos||63|u/l|39–120||||F
+OBX|20|NM|0146–1^AST (SGOT)||33|u/l|0–37||||F
+OBX|21|NM|0127–1^Phosphorous||2.8|mg/dl|2.6–4.5||||F
+OBX|22|NM|0147–9^ALT (SGPT)||55|u/L|0–40|HI|||F
+OBX|23|NM|0093–5^G–GTP||33|u/L|7–51||||F
