@@ -11,28 +11,14 @@ SELECT MinRange,MaxRange FROM TestRanges
 ClassMethod GetReferenceRange(TestCode As %String) As %String
 {
 
-
-    &sql(SELECT MinRange INTO :name FROM TestRanges where TestCode = 1234)
-
-       
-    //set ref=##class(resultVer.TestRanges).%OpenId(1)
-    //set abc = ##class(resultVer.TestRanges).where 
-   &sql(select MinRange into :id from resultVer.TestRanges where TestCode = 1234)
-
-    set refernceRage = ##class(%ResultSet).%New("resultVer.Utility.ReferenceRange")
-    set rsStatus = refernceRage.Execute(TestCode)
-    if rsStatus=$$$OK{
-        while refernceRage.Next() {
-            set minRange = refernceRage.Get("MinRange")
-            set maxRange = refernceRage.Get("MaxRange")
-
-        }
-    }
-    do refernceRage.Close()
-
-    Set sc =minRange _'-'_maxRange
+    &sql(SELECT round(MinRange,2), round(MaxRange,2) into :minRange,:maxRange 
+    FROM resultVer.TestRanges where TestCode = :TestCode)
+    set minRange = $DECIMAL(minRange,2)
+    set maxRange = $DECIMAL(maxRange,2)  
+    
+    Set refRange = minRange _"-"_ maxRange
    
-    Return sc
+    Return refRange
 }
 
 }
