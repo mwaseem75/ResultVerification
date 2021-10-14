@@ -2,25 +2,25 @@ MSH|^~\&|FDHL7|JOHNSON LABS||P1055|201007231634||ORU^R01|P1055–0000047907|P|2.
 PID|1|JQ4988|108512373||SAMPLES^JUNIOR||01/10/1948^53 Y|M|||^******^^||||||||
 NTE|1|P|****************************************************************************
 OBR|1||108512373|CHEM^——-* CHEMISTRY *——–||201007221041||||||||201007222312||P1055^SCI DULUTH/PHS^RTE 29,PO BOX 244^DULUTH, MN 19426^|(945)443–1234|RECEPTION, NEW||||201007231634|||R||||
-OBX|1|NM|1111^TotalProtein||7.3|gm/dl|||||F
-OBX|2|NM|1112^Albumin||3.9|gm/dl|||||F
-OBX|3|NM|1113^Globulin||3.4|gm/dL|||||F
-OBX|4|NM|1114^A/G Ratio||1.1||||||F
-OBX|5|NM|1115^Glucose||296|mg/dL||HI|||F
-OBX|6|NM|1116^Sodium||134|mmol/L|||||F
-OBX|7|NM|1117^Potassium||4.3|mmol/L|||||F
-OBX|8|NM|1118^Chloride||96|mmol/L|||||F
-OBX|9|NM|1119^CO2||24|mmol/L|||||F
-OBX|10|NM|1120^BUN||17|mg/dl|||||F
-OBX|11|NM|1121^Creatinine||1.1|mg/dl|||||F
-OBX|12|NM|1122^BUN/CreatRatio||15.5||||||F
-OBX|13|NM|1123^Calcium||8.9|mg/dl|||||F
-OBX|14|NM|1124^UricAcid||6.2|mg/dl|||||F
-OBX|15|NM|1125^Iron||87|mcg/dl|||||F
-OBX|16|NM|1126^Bilirubin,Total||0.6|mg/dl|||||F
-OBX|17|NM|1127^LDH||190|u/l|||||F
-OBX|18|NM|1128^AlkPhos||63|u/l|||||F
-OBX|19|NM|1129^AST (SGOT)||33|u/l|||||F
-OBX|20|NM|1130^Phosphorous||2.8|mg/dl|||||F
-OBX|21|NM|1131^ALT (SGPT)||55|u/L|||||F
-OBX|22|NM|1132^G–GTP||33|u/L|||||F
+OBX|1|NM|C1111^TotalProtein||7.3|gm/dl|||||F
+OBX|2|NM|C1112^Albumin||3.9|gm/dl|||||F
+OBX|3|NM|C1113^Globulin||3.4|gm/dL|||||F
+OBX|4|NM|C1114^A/G Ratio||1.1||||||F
+OBX|5|NM|C1115^Glucose||296|mg/dL||HI|||F
+OBX|6|NM|C1116^Sodium||134|mmol/L|||||F
+OBX|7|NM|C1117^Potassium||4.3|mmol/L|||||F
+OBX|8|NM|C1118^Chloride||96|mmol/L|||||F
+OBX|9|NM|C1119^CO2||24|mmol/L|||||F
+OBX|10|NM|C1120^BUN||17|mg/dl|||||F
+OBX|11|NM|C1121^Creatinine||1.1|mg/dl|||||F
+OBX|12|NM|C1122^BUN/CreatRatio||15.5||||||F
+OBX|13|NM|C1123^Calcium||8.9|mg/dl|||||F
+OBX|14|NM|C1124^UricAcid||6.2|mg/dl|||||F
+OBX|15|NM|C1125^Iron||87|mcg/dl|||||F
+OBX|16|NM|C1126^Bilirubin,Total||0.6|mg/dl|||||F
+OBX|17|NM|C1127^LDH||190|u/l|||||F
+OBX|18|NM|C1128^AlkPhos||63|u/l|||||F
+OBX|19|NM|C1129^AST (SGOT)||33|u/l|||||F
+OBX|20|NM|C1130^Phosphorous||2.8|mg/dl|||||F
+OBX|21|NM|C1131^ALT (SGPT)||55|u/L|||||F
+OBX|22|NM|C1132^G–GTP||33|u/L|||||F
