@@ -10,9 +10,13 @@ SELECT MinRange,MaxRange FROM TestRanges
 
 ClassMethod GetReferenceRange(TestCode As %String) As %String
 {
-     
-    //set ref=##class(resultVer.TestRanges).%OpenId(1)
 
+
+    &sql(SELECT MinRange INTO :name FROM TestRanges where TestCode = 1234)
+
+       
+    //set ref=##class(resultVer.TestRanges).%OpenId(1)
+    //set abc = ##class(resultVer.TestRanges).where 
    &sql(select MinRange into :id from resultVer.TestRanges where TestCode = 1234)
 
     set refernceRage = ##class(%ResultSet).%New("resultVer.Utility.ReferenceRange")
