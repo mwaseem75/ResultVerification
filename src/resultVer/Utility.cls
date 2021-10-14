@@ -12,7 +12,7 @@ ClassMethod GetReferenceRange(TestCode As %String) As %String
     // do something
 
 
-set aa = ##class(resultVer.TestRanges).%
+
 
     Set sc = sc_"W"
     Return sc
