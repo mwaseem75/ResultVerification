@@ -2,25 +2,25 @@ MSH|^~\&|FDHL7|JOHNSON LABS||P1055|201007231634||ORU^R01|P1055–0000047907|P|2.
 PID|1|JQ4988|108512373||SAMPLES^JUNIOR||01/10/1948^53 Y|M|||^******^^||||||||
 NTE|1|P|****************************************************************************
 OBR|1||108512373|CHEM^——-* CHEMISTRY *——–||201007221041||||||||201007222312||P1055^SCI DULUTH/PHS^RTE 29,PO BOX 244^DULUTH, MN 19426^|(945)443–1234|RECEPTION, NEW||||201007231634|||R||||
-OBX|1|NM|C01354^TotalProtein||7.3|gm/dl|5.9–8.4||||F
-OBX|2|NM|C00331^Albumin||3.9|gm/dl|3.2–5.2||||F
-OBX|3|NM|C17533^Globulin||3.4|gm/dL|1.7–3.7||||F
-OBX|4|NM|C06411^A/G Ratio||1.1||1.1–2.9||||F
-OBX|5|NM|C19760^Glucose||296|mg/dL|70–99|HI|||F
-OBX|6|NM|C01487^Sodium||134|mmol/L|133–145||||F
-OBX|7|NM|C01297^Potassium||4.3|mmol/L|3.3–5.3||||F
-OBX|8|NM|C00570^Chloride||96|mmol/L|96–108||||F
-OBX|9|NM|C00521^CO2||24|mmol/L|21–29||||F
-OBX|10|NM|C00497^BUN||17|mg/dl|7–25||||F
-OBX|11|NM|C00703^Creatinine||1.1|mg/dl|0.6–1.3||||F
-OBX|12|NM|C14274^BUN/CreatRatio||15.5||10–28||||F
-OBX|13|NM|C00505^Calcium||8.9|mg/dl|8.4–10.4||||F
-OBX|14|NM|C01578^UricAcid||6.2|mg/dl|2.4–7.0||||F
-OBX|15|NM|C01149^Iron||87|mcg/dl|30–160||||F
-OBX|16|NM|C00430^Bilirubin,Total||0.6|mg/dl|0.1–1.0||||F
-OBX|17|NM|C1172^LDH||190|u/l|94–250||||F
-OBX|18|NM|C1859^AlkPhos||63|u/l|39–120||||F
-OBX|19|NM|C1461^AST (SGOT)||33|u/l|0–37||||F
-OBX|20|NM|C1271^Phosphorous||2.8|mg/dl|2.6–4.5||||F
-OBX|21|NM|C1479^ALT (SGPT)||55|u/L|0–40|HI|||F
-OBX|22|NM|C0935^G–GTP||33|u/L|7–51||||F
+OBX|1|NM|1111^TotalProtein||7.3|gm/dl|5.9–8.4||||F
+OBX|2|NM|1112^Albumin||3.9|gm/dl|3.2–5.2||||F
+OBX|3|NM|1113^Globulin||3.4|gm/dL|1.7–3.7||||F
+OBX|4|NM|1114^A/G Ratio||1.1||1.1–2.9||||F
+OBX|5|NM|1115^Glucose||296|mg/dL|70–99|HI|||F
+OBX|6|NM|1116^Sodium||134|mmol/L|133–145||||F
+OBX|7|NM|1117^Potassium||4.3|mmol/L|3.3–5.3||||F
+OBX|8|NM|1118^Chloride||96|mmol/L|96–108||||F
+OBX|9|NM|1119^CO2||24|mmol/L|21–29||||F
+OBX|10|NM|1120^BUN||17|mg/dl|7–25||||F
+OBX|11|NM|1121^Creatinine||1.1|mg/dl|0.6–1.3||||F
+OBX|12|NM|1122^BUN/CreatRatio||15.5||10–28||||F
+OBX|13|NM|1123^Calcium||8.9|mg/dl|8.4–10.4||||F
+OBX|14|NM|1124^UricAcid||6.2|mg/dl|2.4–7.0||||F
+OBX|15|NM|1125^Iron||87|mcg/dl|30–160||||F
+OBX|16|NM|1126^Bilirubin,Total||0.6|mg/dl|0.1–1.0||||F
+OBX|17|NM|1127^LDH||190|u/l|94–250||||F
+OBX|18|NM|1128^AlkPhos||63|u/l|39–120||||F
+OBX|19|NM|1129^AST (SGOT)||33|u/l|0–37||||F
+OBX|20|NM|1130^Phosphorous||2.8|mg/dl|2.6–4.5||||F
+OBX|21|NM|1131^ALT (SGPT)||55|u/L|0–40|HI|||F
+OBX|22|NM|1132^G–GTP||33|u/L|7–51||||F
