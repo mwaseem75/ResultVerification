@@ -9,7 +9,7 @@ Recommended for use with: https://learning.intersystems.com/course/view.php?name
 * Dockerfile, docker-compose.yml, and Installer.cls to create container with 
   resultVer.Production in INTEROP namespace  
 * TestRanges.csv, Contains reference ranges for tests used in sample file. Data will
-  be improted by csvgen utility which will be istall by using zpm.
+  be improted by csvgen utility which will be install by using zpm.
   For csvgen, view details with :https://openexchange.intersystems.com/package/csvgen
 * iris.script, containts script to execute during container initilization including 
   installing and importing TestRanges
