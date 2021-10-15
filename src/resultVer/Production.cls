@@ -36,8 +36,7 @@ XData ProductionDefinition
     <Setting Target="Adapter" Name="FilePath">/iris/app/shared/data/criticalResults/</Setting>
     <Setting Target="Host" Name="Filename">billing.txt</Setting>
   </Item>
-  <Item Name="ToCriticalResultsDB" Category="ClinicReg" ClassName="resultVer.PatientRegDBOperation" PoolSize="1" Enabled="false" Foreground="false" Comment="" LogTraceEvents="false" Schedule="">
-  </Item>
+ 
 </Production>
 }
 

@@ -1,15 +1,19 @@
-﻿# quickstarts-hl7  
+﻿# LabResultsVerification-hl7  
 
 ## Summary
 A stand-alone HL7 application built on InterSystems IRIS for Health and Docker. 
-In five terminal commands, build an HL7 integration engine, send a sample message, and view the trace of routing and transformations.
+In terminal commands, build an HL7 integration engine, send a sample result to Business Process to get reference ranges for each test and set AbnormalFlag based on the results, and view the trace of routing and transformations.
 Recommended for use with: https://learning.intersystems.com/course/view.php?name=HL7%20QS  
-Contact InterSystems Learning Services Support with questions or feedback: online.training@intersystems.com 
 
 ## Repo Contents   
-* Dockerfile, docker-compose.yml, and Installer.cls to create container with HL7QS.Production in INTEROP namespace  
-* /src with source files for HL7QS Production  
-
+* Dockerfile, docker-compose.yml, and Installer.cls to create container with 
+  resultVer.Production in INTEROP namespace  
+* TestRanges.csv, Contains reference ranges for tests used in sample file. Data will
+  be improted by csvgen utility which will be istall by using zpm.
+  For csvgen, view details with :https://openexchange.intersystems.com/package/csvgen
+* iris.script, containts script to execute during container initilization including 
+  installing and importing TestRanges
+* /src with source files for resultVer Production and forcsvgen  
 * /shared directory which acts as a volume between local machine and IRIS container 
 * /.vscode/settings.json for automatic server connections when opened in VS Code. 
 
@@ -19,21 +23,19 @@ Contact InterSystems Learning Services Support with questions or feedback: onlin
 
 ## To Run on Windows:  
 ```
-	git clone https://github.com/intersystems/quickstarts-hl7  
-	cd quickstarts-hl7  
+	git clone https://github.com/intersystems/LabResultsVerification-hl7  
+	cd Lab-ResultsVerification-hl7  
 	docker-compose up -d  
-	cp shared\data\sample_data\ADT_A01.txt shared\data\registration\  
-	start explorer "http://localhost:52785/csp/interop/EnsPortal.ProductionConfig.zen?PRODUCTION=isclearning.HL7QS.Production&$NAMESPACE=INTROP" 
+	start explorer "http://localhost:52795/csp/interop/EnsPortal.ProductionConfig.zen?PRODUCTION=resultVer.Production"
 ```
 Log in with credentials: SuperUser | SYS
 
 ## To Run on macOS:  
 
 ```
-	git clone https://github.com/intersystems/quickstarts-hl7  
+	git clone https://github.com/intersystems/LabResultsVerification-hl7 
 	cd quickstarts-hl7  
 	docker-compose up -d  
-	cp shared/data/sample_data/ADT_A01.txt shared/data/registration/  
-	open "http://localhost:52785/csp/interop/EnsPortal.ProductionConfig.zen?PRODUCTION=isclearning.HL7QS.Production&$NAMESPACE=INTEROP"  
+	open "http://localhost:52795/csp/interop/EnsPortal.ProductionConfig.zen?PRODUCTION=resultVer.Production"
 ```
 Log in with credentials: SuperUser | SYS
