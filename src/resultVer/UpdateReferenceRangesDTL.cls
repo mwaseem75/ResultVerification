@@ -14,6 +14,7 @@ XData DTL [ XMLNamespace = "http://www.intersystems.com/dtl" ]
 <foreach property='source.{PIDgrpgrp(k1).ORCgrp()}' key='k2' >
 <foreach property='source.{PIDgrpgrp(k1).ORCgrp(k2).OBXgrp()}' key='k3' >
 <assign value='##class(resultVer.Utility).GetReferenceRange(source.{PIDgrpgrp(k1).ORCgrp(k2).OBXgrp(k3).OBX:ObservationIdentifier.Identifier})' property='target.{PIDgrpgrp(k1).ORCgrp(k2).OBXgrp(k3).OBX:ReferencesRange}' action='set' />
+<assign value='##class(resultVer.Utility).SetAbnormalFlag(source.{PIDgrpgrp(k1).ORCgrp(k2).OBXgrp(k3).OBX:ObservationIdentifier.Identifier},source.{PIDgrpgrp(k1).ORCgrp(k2).OBXgrp(k3).OBX:ObservationValue()()})' property='target.{PIDgrpgrp(k1).ORCgrp(k2).OBXgrp(k3).OBX:AbnormalFlags()}' action='set' />
 </foreach>
 </foreach>
 </foreach>
