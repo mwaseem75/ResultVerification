@@ -1,6 +1,6 @@
-/// HL7QS Routing Rule
-/// Business process for HL7QS Production
-/// Given an incoming ADT message, this rule calls three transformations and forwards the message to next nodes.
+/// Routing Rule
+/// Business process for resultVer Production
+/// Given an incoming transform message and forward to operations
 Class resultVer.ResultsRule Extends Ens.Rule.Definition
 {
 

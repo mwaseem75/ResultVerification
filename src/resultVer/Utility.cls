@@ -1,6 +1,8 @@
 Class resultVer.Utility Extends Ens.Rule.FunctionSet
 {
 
+// get reference ranges from TestRanges table
+
 ClassMethod GetReferenceRange(TestCode As %String) As %String
 {
     
@@ -13,6 +15,8 @@ ClassMethod GetReferenceRange(TestCode As %String) As %String
    //Set refRange = "Test"
    Return refRange
 }
+
+// set abnormal flag based on reference ranges
 
 ClassMethod SetAbnormalFlag(TestCode As %String, Result As %Decimal) As %String
 {
