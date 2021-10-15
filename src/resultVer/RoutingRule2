@@ -1,7 +1,7 @@
 /// HL7QS Routing Rule
 /// Business process for HL7QS Production
 /// Given an incoming ADT message, this rule calls three transformations and forwards the message to next nodes.
-Class resultVer.RoutingRule Extends Ens.Rule.Definition
+Class resultVer.RoutingRule2 Extends Ens.Rule.Definition
 {
 
 Parameter RuleAssistClass = "EnsLib.HL7.MsgRouter.RuleAssist";
