@@ -13,7 +13,7 @@ Recommended for use with: https://learning.intersystems.com/course/view.php?name
   For csvgen, view details with :https://openexchange.intersystems.com/package/csvgen
 * iris.script, containts script to execute during container initilization including 
   installing and importing TestRanges
-* /src with source files for resultVer Production and forcsvgen  
+* /src with source files for resultVer Production and for csvgen  
 * /shared directory which acts as a volume between local machine and IRIS container 
 * /.vscode/settings.json for automatic server connections when opened in VS Code. 
 
