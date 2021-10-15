@@ -39,3 +39,13 @@ Log in with credentials: SuperUser | SYS
 	open "http://localhost:52795/csp/interop/EnsPortal.ProductionConfig.zen?PRODUCTION=resultVer.Production"
 ```
 Log in with credentials: SuperUser | SYS
+
+# What is included?
+*LabResultsVerification-hl* includes *Business Services* to read file, *Business Processes* to get results reference ranges and set abnormal flag and send to *Business Operations*. 
+
+# Getting Started
+
+Copy \shared\data\sample_data\ORU_R01.txt \shared\data\results directory.
+System will update reference range by using TestRanges Persistent class and set the abnormal flag.
+Business process will send critical results whom abnormal flag is set to *ToCriticalResultsFile* operation and rest of the normal results to *ToNormalResultsFile* operation.
+
