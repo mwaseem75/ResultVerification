@@ -2,7 +2,7 @@
 
 ## Summary
 A stand-alone HL7 application built on InterSystems IRIS for Health and Docker. 
-In terminal commands, build an HL7 integration engine, send a sample result to Business Process to get reference ranges for each test and set AbnormalFlag based on the results, and view the trace of routing and transformations.
+In terminal commands, build an HL7 integration engine, send a sample result to Business Process to get reference ranges for each test and set Abnormal Flag based on the results, and view the trace of routing and transformations.
 Recommended for use with: https://learning.intersystems.com/course/view.php?name=HL7%20QS  
 
 ## Repo Contents   
