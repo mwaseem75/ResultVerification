@@ -34,9 +34,8 @@ XData ProductionDefinition
   </Item>
   <Item Name="ToCriticalResultsFile" Category="ClinicReg" ClassName="EnsLib.HL7.Operation.FileOperation" PoolSize="1" Enabled="true" Foreground="false" Comment="This is a default HL7 File Operation." LogTraceEvents="false" Schedule="">
     <Setting Target="Adapter" Name="FilePath">/iris/app/shared/data/criticalResults/</Setting>
-    <Setting Target="Host" Name="Filename">billing.txt</Setting>
+    <Setting Target="Host" Name="Filename">criticalResult.txt</Setting>
   </Item>
- 
 </Production>
 }
 
