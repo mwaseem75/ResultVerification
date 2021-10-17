@@ -9,7 +9,7 @@ Recommended for use with: https://learning.intersystems.com/course/view.php?name
 * Importing CSV data to Persistent class by using csvgen utility
 * Use of Custom Utility functions
 * Use of SQL to read data from Persistent class
-* Use of Data Transformation to update reference ranges and abnormal flag from DataBase
+* Use of Data Transformation to update reference ranges and abnormal flag from DB
 * Use of Business Rules to find critical data
 
 
