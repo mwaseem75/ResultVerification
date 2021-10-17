@@ -35,7 +35,7 @@ jobs:
 
     - name: Authorize Docker push
       run: gcloud auth configure-docker
-	  run: gcloud docker --authorize-only
+
 
     - name: Build and Push image
       run: |
