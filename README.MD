@@ -5,6 +5,14 @@ A stand-alone HL7 application built on InterSystems IRIS for Health and Docker.
 In terminal commands, build an HL7 integration engine, send a sample result to Business Process to get reference ranges for each test and set Abnormal Flag based on the results, and view the trace of routing and transformations.
 Recommended for use with: https://learning.intersystems.com/course/view.php?name=HL7%20QS  
 
+## Features
+* Importing CSV data to Persistent class by using csvgen utility
+* Use of Custome Utility functions
+* SQL to read data from Persistent class
+* Use of Data Transformation to update reference ranges and abnormal flag from DataBase
+* Use of Business Rules to find critical data
+
+
 ## Repo Contents   
 * Dockerfile, docker-compose.yml, and Installer.cls to create container with 
   resultVer.Production in INTEROP namespace  
